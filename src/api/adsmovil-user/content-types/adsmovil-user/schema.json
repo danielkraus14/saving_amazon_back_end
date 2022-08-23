@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adsmovil_users",
+  "info": {
+    "singularName": "adsmovil-user",
+    "pluralName": "adsmovil-users",
+    "displayName": "adsmovilUser"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adsmovil_code": {
+      "type": "biginteger"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "certificates_en": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "certificates_es": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "certificates_pt": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "numeration": {
+      "type": "biginteger"
+    }
+  }
+}
