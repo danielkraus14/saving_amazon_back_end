@@ -4,7 +4,8 @@
   "info": {
     "singularName": "adsmovil-user",
     "pluralName": "adsmovil-users",
-    "displayName": "adsmovilUser"
+    "displayName": "adsmovilUser",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,37 +22,50 @@
       "type": "string"
     },
     "certificates_en": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "certificates_es": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "certificates_pt": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "numeration": {
       "type": "biginteger"
+    },
+    "tree_picture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
